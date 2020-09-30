@@ -1,0 +1,155 @@
+header{
+    background-color: black;
+}
+
+.logo {
+    margin-left: 40px;
+    font-size: 100px;
+}
+
+.total{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+h1{
+    Color: #ffdd1c;
+    font-family: 'bebas';
+    font-size: 150px;
+    display: block;
+    height: 100px;
+}
+
+.nav-item a{
+    margin: 25px;
+    text-decoration: none;
+    color: #ffdd1c;
+    font-family: 'netflix'; 
+}
+
+.navbar-nav {
+    display: flex;
+    font-size: 300%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: none;
+    padding: 2px;
+    color: yellow;
+    text-decoration: none;
+    width: auto;
+}
+
+.navbar-nav a:hover{
+    color: yellow;
+    font-size: 90px;
+}
+
+@font-face{
+    font-family: 'bebas';
+    src: url('Bebas-Regular.otf');
+}
+
+@font-face{
+    font-family: 'netflix';
+    src: url('netflixfonte.ttf')
+}
+
+@font-face{
+    font-family: 'DC';
+    src: url('Dc.ttf');
+}
+
+.fixarRodape {
+    bottom: 0%;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    margin: 0% auto;
+    padding-bottom: 50px;
+}
+
+p{
+    color: #ffdd1c; 
+    text-align: center;
+    font-size: 30px;
+}
+
+.FilmesDC {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    align-items: initial;
+}
+
+
+.DC {
+    font-size: 50px;
+    color: #ffdd1c;
+    display: flex;
+    margin-left: 55px;
+    font-family: 'DC';
+}
+
+.Coringa{
+    display: flex;
+    width: 250px;
+    height: 375px;
+    border-radius: 50px;
+}
+
+.Dcfilms{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+}
+
+.Dcfilms a:hover {
+    width: 300px;
+    height: 400px;
+}
+
+.FilmesMarvel {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 50px;
+    align-items: initial;
+}
+
+
+.Marvel {
+    font-size: 50px;
+    color: #ffdd1c;
+    display: flex;
+    margin-left: 55px;
+    font-family: 'DC';
+}
+
+.Avenger{
+    display: flex;
+    width: 250px;
+    height: 375px;
+    border-radius: 50px;
+}
+
+.Marvelfilms{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: center;
+}
+
+.Marvelfilms a:hover {
+    width: 300px;
+    height: 400px;
+}
